@@ -38,5 +38,67 @@ img {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: var(--font-size-h1);
+}
 
+h2 {
+  font-size: var(--font-size-h2);
+}
 
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (min-width: 960px) {
+
+#promo {
+
+}
+
+#about {
+
+}
+
+#reviews {
+
+}
+
+#shop {
+  
+}
+
+}
+
+@media (max-width: 960px) and (min-width: 768px) {
+
+}
+
+@media (max-width: 768px) and (min-width: 720px) {
+
+}
+
+@media (max-width: 720px) {
+
+}
