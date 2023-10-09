@@ -1,11 +1,11 @@
 :root {
-  --font-size-h6: clamp(1rem, -0.5vw + 1.09rem, 0.69rem);
-  --font-size-h5: clamp(1rem, -0.27vw + 1.05rem, 0.83rem);
-  --font-size-p: clamp(1rem, 0vw + 1rem, 1rem);
-  --font-size-h4: clamp(1rem, 0.33vw + 0.94rem, 1.2rem);
-  --font-size-h3: clamp(1rem, 0.72vw + 0.87rem, 1.44rem);
-  --font-size-h2: clamp(1rem, 1.19vw + 0.78rem, 1.73rem);
-  --font-size-h1: clamp(1rem, 1.75vw + 0.67rem, 2.07rem);
+  --font-size-h6: clamp(0.64rem, 0.05vw + 0.63rem, 0.67rem);
+--font-size-h5: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+--font-size-p: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+--font-size-h4: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+--font-size-h3: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+--font-size-h2: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+--font-size-h1: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
 }
 
 * {
@@ -91,7 +91,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 60em) {
 
 nav {
   margin: 0 20em;
@@ -255,7 +255,7 @@ nav {
 }
 }
 
-@media (max-width: 960px) and (min-width: 768px) {
+@media (max-width: 960px) and (min-width: 48em) {
   nav {
     margin: 0 1em;
   }
@@ -418,7 +418,7 @@ nav {
   }
 }
 
-@media (max-width: 768px) and (min-width: 720px) {
+@media (max-width: 768px) and (min-width: 45em) {
   nav {
     margin: 0 1em;
   }
