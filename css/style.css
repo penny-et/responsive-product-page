@@ -76,7 +76,6 @@ nav {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0 20em;
 }
 nav ul {
   display: flex;
@@ -94,6 +93,9 @@ nav ul li a {
 
 @media screen and (min-width: 960px) {
 
+nav {
+  margin: 0 20em;
+}
 #promo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -254,57 +256,482 @@ nav ul li a {
 }
 
 @media (max-width: 960px) and (min-width: 768px) {
-  
+  nav {
+    margin: 0 1em;
+  }
   #promo {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 4em 0;
+    border-top: 3px solid #f9f9f9;
+    margin: 0 1em;
+  }
+  #promo .images {
+    display: grid;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+  }
+  #promo .images .img1 {
+    grid-area: img1;
+  }
+  #promo .images .img2 {
+    grid-area: img2;
+  }
+  #promo .images .img3 {
+    grid-area: img3;
+  }
+  #promo .images .img4 {
+    grid-area: img4;
+  }
+  #promo #text h1 {
+    margin: 0;
+  }
+  #promo #text h4 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  #promo #text h5 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  #promo #text .button{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+  }
+  #promo #text .button h6 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
   }
   
   #about {
-  
+    padding: 4em 0;
+    border-top: 3px solid #f9f9f9;
+    margin: 0 1em;
+  }
+  #about h2 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  #about .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
   }
   
   #reviews {
-  
+    background-color: #000;
+    margin: 0;
+    padding: 3em 1em;
+    color: #fff;
+  }
+  #reviews h2 {
+    display: flex;
+    margin: 0 auto 1em;
+    justify-content: center;
+  }
+  #reviews .quotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5em;
+  }
+  #reviews .quotes .names {
+    font-style: italic;
   }
   
   #shop {
-    
+    margin: 0 1em 3em;
+  }
+  #shop h2 {
+    display: flex;
+    margin: 2em auto 1em;
+    justify-content: center;
+  }
+  #shop .doughs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+  }
+  #shop .doughs .dough-1 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-1 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-1 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-2 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-2 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-2 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-3 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-3 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-3 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-4 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-4 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-4 p {
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media (max-width: 768px) and (min-width: 720px) {
+  nav {
+    margin: 0 1em;
+  }
   #promo {
-
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 1em;
+    padding: 4em 0 2em;
+    border-top: 3px solid #f9f9f9;
+    margin: 0 1em;
+  }
+  #promo .images {
+    display: grid;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+  }
+  #promo .images .img1 {
+    grid-area: img1;
+  }
+  #promo .images .img2 {
+    grid-area: img2;
+  }
+  #promo .images .img3 {
+    grid-area: img3;
+  }
+  #promo .images .img4 {
+    grid-area: img4;
+  }
+  #promo #text h1 {
+    margin: 0;
+  }
+  #promo #text h4 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  #promo #text h5 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  #promo #text .button{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+  }
+  #promo #text .button h6 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
   }
   
   #about {
-  
+    padding: 4em 0;
+    border-top: 3px solid #f9f9f9;
+    margin: 0 1em;
+  }
+  #about h2 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  #about .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
   }
   
   #reviews {
-  
+    background-color: #000;
+    margin: 0;
+    padding: 3em 1em;
+    color: #fff;
+  }
+  #reviews h2 {
+    display: flex;
+    margin: 0 auto 1em;
+    justify-content: center;
+  }
+  #reviews .quotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5em;
+  }
+  #reviews .quotes .names {
+    font-style: italic;
   }
   
   #shop {
-    
+    margin: 0 1em 3em;
+  }
+  #shop h2 {
+    display: flex;
+    margin: 2em auto 1em;
+    justify-content: center;
+  }
+  #shop .doughs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+  }
+  #shop .doughs .dough-1 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-1 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-1 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-2 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-2 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-2 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-3 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-3 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-3 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-4 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-4 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-4 p {
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media (max-width: 720px) {
+  nav {
+    margin: 0 1em;
+  }
   #promo {
-
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 1em;
+    padding: 4em 0 2em;
+    border-top: 3px solid #f9f9f9;
+    margin: 0 1em;
+  }
+  #promo .images {
+    display: grid;
+    grid-template-areas: 
+    "img1 img1 img1"
+    "img2 img3 img4";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    gap: 1em;
+  }
+  #promo .images .img1 {
+    grid-area: img1;
+  }
+  #promo .images .img2 {
+    grid-area: img2;
+  }
+  #promo .images .img3 {
+    grid-area: img3;
+  }
+  #promo .images .img4 {
+    grid-area: img4;
+  }
+  #promo #text h1 {
+    margin: 0;
+  }
+  #promo #text h4 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  #promo #text h5 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  #promo #text .button{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+  }
+  #promo #text .button h6 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
   }
   
   #about {
-  
+    padding: 4em 0;
+    border-top: 3px solid #f9f9f9;
+    margin: 0 1em;
+  }
+  #about h2 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 1em;
   }
   
   #reviews {
-  
+    background-color: #000;
+    margin: 0;
+    padding: 3em 5em;
+    color: #fff;
+
+  }
+  #reviews h2 {
+    display: flex;
+    margin: 0 auto 1em;
+    justify-content: center;
+  }
+  #reviews .quotes .names {
+    font-style: italic;
   }
   
   #shop {
-    
+    margin: 0 1em 3em;
+  }
+  #shop h2 {
+    display: flex;
+    margin: 2em auto 1em;
+    justify-content: center;
+  }
+  #shop .doughs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+  #shop .doughs .dough-1 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-1 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-1 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-2 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-2 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-2 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-3 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-3 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-3 p {
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-4 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  #shop .doughs .dough-4 h3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #shop .doughs .dough-4 p {
+    display: flex;
+    justify-content: center;
   }
 }
 
