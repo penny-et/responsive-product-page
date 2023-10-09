@@ -44,28 +44,22 @@ h1 {
   font-size: var(--font-size-h1);
   font-weight: 500;
 }
-
 h2 {
   font-size: var(--font-size-h2);
 }
-
 h3 {
   font-size: var(--font-size-h3);
 }
-
 h4 {
   font-size: var(--font-size-h4);
 }
-
 p {
   font-size: var(--font-size-p);
 }
-
 h5 {
   font-size: var(--font-size-h5);
   font-weight: 450;
 }
-
 h6 {
   font-size: var(--font-size-h6);
 }
