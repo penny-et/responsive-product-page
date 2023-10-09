@@ -92,14 +92,6 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-#reviews {
-
-}
-
-#shop {
-
-}
-
 @media screen and (min-width: 960px) {
 
 #promo {
@@ -195,11 +187,70 @@ nav ul li a {
 }
 
 #shop {
-  margin: 0 20em;
-
-
+  margin: 0 20em 3em;
 }
-
+#shop h2 {
+  display: flex;
+  margin: 2em auto 1em;
+  justify-content: center;
+}
+#shop .doughs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+}
+#shop .doughs .dough-1 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+#shop .doughs .dough-1 h3 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-1 p {
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-2 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+#shop .doughs .dough-2 h3 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-2 p {
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-3 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+#shop .doughs .dough-3 h3 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-3 p {
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-4 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+#shop .doughs .dough-4 h3 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#shop .doughs .dough-4 p {
+  display: flex;
+  justify-content: center;
+}
 }
 
 @media (max-width: 960px) and (min-width: 768px) {
@@ -255,4 +306,15 @@ nav ul li a {
   #shop {
     
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 0;
+  border-top: 3px solid #f9f9f9;
+
+}
+footer h6 {
+  font-weight: 500;
 }
